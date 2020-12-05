@@ -16,7 +16,7 @@
 ## 初始化Git仓储/(仓库)
 - 这个仓库会存放，git对我们项目代码进行备份的文件
 - 在项目目录右键打开 git bash
-- 命令: `git init -y`
+- 命令: `git init`
 
 
 ## 自报家门
@@ -25,7 +25,7 @@
 - 命令: 
     + 配置用户名:`git config --global user.name "xiaoming"`
     + 配置邮箱:  `git config --global user.email "xm@sina.com"`
-
+    + 查看git配置信息：`git config --list`   
 
 ## 把大象放到冰箱要几步
 1. 打开冰箱门
@@ -129,7 +129,9 @@
 
 - 当我们在push时，加上-u参数，那么在下一次push时
   我们只需要写上`git push`就能上传我们的代码。(加上-u之后，git会把
-  当前分支与远程的指定的分支进行关联。git push origin master)
+  当前分支与远程的指定的分支进行关联。
+  Git remote add origin "git地址"
+  git push origin master 、git pull origin master)
 
 ## npm
 - node package manager
