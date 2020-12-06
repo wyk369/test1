@@ -63,6 +63,11 @@
 - `git log --oneline` 可以看到简洁版的日志
 
 ## 回退到指定的版本
+- `git chcekout 文件名` 
+    + 用暂存区的文件覆盖工作目录中的文件
+- `git rm --cached 文件` 
+    + 将文件从暂存区中删除
+
 - `git reset --hard Head~0`
     + 表示回退到上一次代码提交时的状态
 - `git reset --hard Head~1`
